@@ -1,0 +1,59 @@
+/*styling to adjust the carousel size*/
+.carousel-inner{
+          max-height: 450px;
+          border-radius: 10px;
+      }
+#sliders{
+   padding-top: 3%;
+   padding-bottom: 3%;
+   padding-right: 10%;
+   padding-left: 10%; 
+}
+
+
+/*styling to control the card size*/
+
+.card{
+	width: 22rem;
+}
+
+/*to centralize everthing inside the picture class */
+.picture{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+/*styling to control the last image size*/
+.last_img{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-bottom: 10px;
+}
+.last_img img{
+	width: 80%;
+	height:200px;
+	border-radius: 10px;
+    }
+
+
+/*Responive styling*/
+/*changing the styling for devices which have maximum width=763px*/
+@media screen and (max-width: 763px){
+
+	.card{
+		width: 12rem;
+	}
+    .picture{
+    	max-width: 50%;
+    	margin-bottom:5px; 
+     }
+    
+    .last_img img{
+    	width: 90%;
+    	height:150px;
+
+     }
+}
